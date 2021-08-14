@@ -38,9 +38,12 @@ body {
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.header-studio:hover,
-.header-studio:focus {
-  color: var(--second-title-color);
+.header-studio-second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 .header-potfolio {
   font-weight: 500;
@@ -49,9 +52,12 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-potfolio:hover,
-.header-potfolio:focus {
-  color: var(--accent-color);
+.header-potfolio-second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
 .header-contact {
   font-weight: 500;
@@ -65,11 +71,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 .header-email:hover,
 .header-email:focus {
-  color: #757575;
+  color: var(--accent-color);
 }
 .header-tel {
   font-weight: 500;
@@ -77,6 +83,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
 }
 /*----HERO----*/
 .hero {
@@ -102,6 +112,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-title-colore);
   cursor: pointer;
+  font-family: inherit;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -131,9 +142,11 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   cursor: pointer;
+  font-family: inherit;
 }
 .main-button-other {
   background-color: #f5f4fa;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -172,7 +185,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
-team-worker-name {
+.team-worker-about-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -205,6 +218,9 @@ team-worker-name {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.footer-adress {
+  font-style: normal;
 }
 .footer-adress-map {
   font-size: 14px;
